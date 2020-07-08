@@ -8,7 +8,7 @@ as
 select
 isnull(case when NewOrgUnit not like 'NEW%' then T106F005_ORGANISATION_UNIT_NO
 else (T106F005_ORGANISATION_UNIT_NO+T101F005_POSITION_NO) end,'') as [Back to ToC]
-,'' as Group2
+,'TBA' as Group2
 ,'' as Group3
 ,'' as Group4
 ,'' as Group5
